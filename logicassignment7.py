@@ -1,5 +1,5 @@
 """intro2ProgramingLogic_assigment7"""
-#daniel_Gauthier
+#Frxstz
 #oct_2022
 
 X = 0
@@ -8,7 +8,7 @@ while True:
     if USER == "yes":
         X = X + 1
         #general_data_collection
-        print ("Hello, welcome to the Red River Collge Student services")
+        print ("Hello, welcome to the Collge Student services")
         FULL_NAME = str(input("What is your full name? "))
         number_credits = int(input("How many credits are you taking this term? "))
         DORMS = str(input("Do you plan to get an dormitory on campus? [Yes/No] ")).lower()
