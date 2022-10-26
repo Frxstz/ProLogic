@@ -1,0 +1,12 @@
+class test:
+    check1 = (int(0))
+    def bruh(check1):
+        Check  = str(input("Do you plan to get food delivery on campus? [Yes/No] ")).lower()
+        if Check == ("yes"):
+            check1 = (int(1))
+        else :check1 = (int(0))
+        return check1
+    check2 = bruh(check1)
+    if check2 == 1:
+        print("thank you for your cooperation")
+    else :print("please hit yes")
