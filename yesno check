@@ -2,7 +2,7 @@ class test:
     check1 = (int(0))
     while True:
         def bruh(check1):
-                Check  = str(input("Do you plan to get food delivery on campus? [Yes/No] ")).lower()
+                Check  = str(input("Do you agree to the terms and conditions? [Yes/No] ")).lower()
                 if Check == ("yes"):
                     check1 = (int(1))
                 else :check1 = (int(0))
