@@ -1,0 +1,27 @@
+import numpy as np
+
+def bruh():
+    num_rows = int(input("How many Rows do you want? "))
+    num_colum = int(input("How many Collums do you want? "))
+    net_return = np.array([[num_rows, num_colum]])
+    return net_return
+
+taco = []
+# taco.append(bruh())
+# print(f"{taco}")
+
+Y = int(input("How many Matrix's you want? "))
+X = 0
+while True:
+    if X < Y:
+        X = X + 1
+        # if X <= Y:
+        #     break
+        # else:
+        taco.append(bruh())
+    else:
+        print(f"{taco}")
+        Z = Y * 2
+        taco2 = np.array_split(taco, 4)
+        print(taco2)
+        break
