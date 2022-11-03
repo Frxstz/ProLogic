@@ -29,6 +29,8 @@ def finalMatCre(fincount, breaklist,numSets):
 splitcount = 0 
 def matsplit(splitcount):
     prod = np.prod(numSets[splitcount])
+    new = taco[:prod]
+    new2 = taco[prod:]
     return prod
 
 taco = []
@@ -64,6 +66,10 @@ while True:
                             if splitcount < Y:
                                 print(matsplit(splitcount))
                                 splitcount = splitcount + 1
+                                new = taco[:prod]
+                                new2 = taco[prod:]
+                                print(new)
+                                print(new2)
                             else:
                                 print("bruh")
                                 break
