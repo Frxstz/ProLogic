@@ -77,7 +77,7 @@ while True:
                         aNums = np.array(nums).reshape(breaklist[0])
                         aNums2 = np.array(nums2).reshape(breaklist[1])
                         final_ans = np.matmul(aNums,aNums2)
-                        print(final_ans) # FINAL LETs GOOO!!!!!!!!!
+                        print(final_ans) # FINAL LETS GOOO!!!!!!!!!
                         break
         else:
             print('These Matricies can not be multiplied')
