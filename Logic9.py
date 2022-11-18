@@ -1,3 +1,9 @@
+"""
+Assignment 9
+Intro to Pro Logic
+Github:https://github.com/Frxstz/ProLogic
+Author @Frxstz
+"""
 class Student(object):
     def extra_cost(self):       #This works i guess, can be optimised
         food_payment = (int(0))
